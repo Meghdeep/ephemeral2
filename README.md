@@ -15,3 +15,6 @@ A subsequent visitor who loads `/abc123` joins the `want:abc123` topic and tries
 When a `want:abc123` subscriber gets the content, it leaves the `want:abc123` topic and joins the `have:abc123` topic, ready to pass it along to newer visitors.
 
 Lastly, whenever a subscriber joins or leaves `have:abc123`, the new visitor count is broadcast, so all clients know the "health" of the page and how close it is to going away.
+
+
+https://news.ycombinator.com/item?id=9531265
